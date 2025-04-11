@@ -82,11 +82,16 @@
             box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.2);
             text-align: center;
         }
-        .skill-card p, .hobby-card p {
+        .skill-card p, .hobby-card p,.skill-card a {
             color: rgb(14, 14, 15);
         }
         .skill-card strong, .hobby-card strong {
             color: rgb(101, 145, 212);
+        }
+         .skill-card a {
+        text-decoration: none; /* removes underline */
+        /* font-weight: 500; */
+        transition: color 0.3s ease;
         }
         .divider {
             height: 2px;
@@ -226,6 +231,14 @@
                     <div class="skill-card">
                         <h3>Research & Problem-Solving</h3>
                         <p>Working on <strong>Federated Learning in Healthcare</strong> and constantly improving <strong>DSA skills</strong>.</p>
+                    </div>
+                      <div class="skill-card">
+                        <h3>Certifications-Take a look here</h3>
+                        <ul>
+                            <li><a href="https://drive.google.com/file/d/1JrBGLZahh2rx-5p2nYIyPeXesLsVx_VI/view?usp=sharing" target="_blank">AI For Everyone</a></li>
+                            <li><a href="https://drive.google.com/file/d/1L02IRGLGVplwHQvZw9rrHR5jLpeH8CMj/view?usp=sharing" target="_blank">Google AI Essentials</a></li>
+                            <li><a href="https://drive.google.com/file/d/1WsqfV6Jgi3xYiuP24aZyP3xwywe_n_4F/view?usp=sharing" target="_blank">Prompt Engineering for ChatGPT</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
